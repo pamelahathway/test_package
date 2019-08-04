@@ -18,8 +18,8 @@ https://github.com/pypa/sampleproject/blob/master/setup.py
 setup(
     name = 'test_package',
     version = '0.0.1d',
-    install_requires=['numpy'>=1.0.0, <1.13.0,
-					  'scipy'>=1.0.0, <2.0.0], 
+    install_requires=['numpy'>=1.0.0,<1.13.0,
+					  'scipy'>=1.0.0,<2.0.0], 
     author = 'ASPP 2019',
     author_email = 'prof_snape@not-gmail.org',
     description = 'an example of a simple python package',
